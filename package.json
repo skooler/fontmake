@@ -1,0 +1,36 @@
+{
+  "name": "fontmake",
+  "description": "Font generator",
+  "version": "0.1.0",
+  "author": "Masaki Tojo",
+  "bin": "index.js",
+  "bugs": {
+    "url": "https://github.com/skooler/fontmake/issues"
+  },
+  "dependencies": {
+    "svg2ttf": "~4.1.0",
+    "svgicons2svgfont": "~9.0.3"
+  },
+  "devDependencies": {
+    "eslint": "~3.7.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "homepage": "https://github.com/skooler/fontmake",
+  "keywords": [
+    "font",
+    "icon",
+    "svg"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skooler/fontmake.git"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  }
+}
