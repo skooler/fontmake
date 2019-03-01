@@ -1,11 +1,11 @@
 # fontmake
 
-Make font from SVG files.
+Make TTF font from SVG files.
 
 ## Installation
 
 ```bash
-$ npm install --global git+ssh://git@github.com:skooler/fontmake.git
+$ npm install --global fontmake
 ```
 
 ## Usage
@@ -18,6 +18,8 @@ Then execute the following command:
 $ fontmake fontname /path/to/*.svg
 ```
 
+It is output to `<fontname>.ttf`.
+
 ## License
 
-MIT
+[MIT](LICENSE)

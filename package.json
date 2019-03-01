@@ -1,8 +1,8 @@
 {
   "name": "fontmake",
-  "description": "Font generator",
-  "version": "0.1.0",
-  "author": "Masaki Tojo",
+  "description": "Make font from SVG files",
+  "version": "1.0.0",
+  "author": "Skooler Co., Ltd.",
   "bin": "index.js",
   "bugs": {
     "url": "https://github.com/skooler/fontmake/issues"
@@ -25,7 +25,6 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/skooler/fontmake.git"
