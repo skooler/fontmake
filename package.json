@@ -8,7 +8,7 @@
     "url": "https://github.com/skooler/fontmake/issues"
   },
   "dependencies": {
-    "svg2ttf": "~4.1.0",
+    "svg2ttf": "~6.0.3",
     "svgicons2svgfont": "~9.0.3"
   },
   "devDependencies": {
