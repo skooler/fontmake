@@ -1,18 +1,18 @@
 {
   "name": "fontmake",
   "description": "Make font from SVG files",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Skooler Co., Ltd.",
   "bin": "index.js",
   "bugs": {
     "url": "https://github.com/skooler/fontmake/issues"
   },
   "dependencies": {
-    "svg2ttf": "~4.1.0",
-    "svgicons2svgfont": "~9.0.3"
+    "svg2ttf": "~6.0.3",
+    "svgicons2svgfont": "~12.0.0"
   },
   "devDependencies": {
-    "eslint": "~3.7.1"
+    "eslint": "~8.43.0"
   },
   "engines": {
     "node": ">=10.0.0"

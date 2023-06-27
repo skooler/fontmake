@@ -13,7 +13,9 @@ const writeFile = promisify(fs.writeFile);
 const fontName = process.argv[2];
 
 const fontStream = new SVGIcons2SVGFontStream({
-  fontName
+  fontHeight: 1024,
+  fontName,
+  normalize: true,
 });
 
 let css = `@font-face {
